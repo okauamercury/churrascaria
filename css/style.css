@@ -1,0 +1,13 @@
+/* Nosso estilo css */
+
+@charset "utf8";
+
+body{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.fundo-fixo{
+    background:url(../imagem/pexels-allen-boguslavsky-1344061-17770035.jpg) no-repeat fixed center;
+    -webkit-background-size:cover;
+}
