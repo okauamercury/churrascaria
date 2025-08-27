@@ -2,10 +2,27 @@
 
 @charset "utf8";
 
-
 .fundo-fixo{
+    background-color: gray;
+}
+
+#carousel{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* .fundo-fixo{
     background:url(../imagem/pexels-allen-boguslavsky-1344061-17770035.jpg) no-repeat fixed center;
     -webkit-background-size:cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+} */
+nav{
+    margin-bottom: 20px;
 }
 /**/
 
@@ -16,10 +33,3 @@ main{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 2);
 }
 
-nav{
-    opacity: 0.9;
-}
-
-/* nav ul li a:hover{
-    opacity: 0.5;
-} */
